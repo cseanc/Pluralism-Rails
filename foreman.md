@@ -23,3 +23,18 @@ webpacker: ./bin/webpack-dev-server
 foreman start -f Procfile.dev
 ```
 
+## Alias
+
+Since this command is long, you can set an alias in `~/.bash_profile` as shortcut:
+
+```bash
+# Add this line into ~/.bash_profile
+alias fs="foreman start -f Procfile.dev"
+
+# Save and run
+source ~/.bash_profile
+
+# At project root, you can run foreman by typing:
+fs
+```
+
