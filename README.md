@@ -1,5 +1,5 @@
-# Ruby-Rails-Mac-Note
-Notes on Ruby and Ruby on Rails on macOS
+# Ruby-Rails-Note
+Notes on Ruby and Ruby on Rails
 
 ## Setup / Version Management
 
