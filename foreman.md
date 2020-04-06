@@ -23,6 +23,10 @@ webpacker: ./bin/webpack-dev-server
 foreman start -f Procfile.dev
 ```
 
+###### NOTE
+
+If foreman failed to start, then you will need to manually run both `./bin/webpack-dev-server` and `rails -s` once.
+
 ## Alias
 
 Since this command is long, you can set an alias in `~/.bash_profile` as shortcut:
@@ -37,4 +41,3 @@ source ~/.bash_profile
 # At project root, you can run foreman by typing:
 fs
 ```
-

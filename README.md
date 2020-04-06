@@ -1,4 +1,4 @@
-# Ruby-Rails-Note
+# Rubyist Treasure
 Notes on Ruby and Ruby on Rails
 
 ## Setup / Version Management
