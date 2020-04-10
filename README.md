@@ -1,5 +1,5 @@
-# Rubyist Treasure
-Notes on Ruby and Ruby on Rails
+# Pluralism Rails
+Ruby, HTML, CSS, JavaScript
 
 ## Setup / Version Management
 
