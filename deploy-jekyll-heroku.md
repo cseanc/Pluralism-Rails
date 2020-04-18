@@ -7,13 +7,13 @@ Reference:
 
 1. Get [Heroku Toolbelt](https://gorails.com/setup)
 
-2. On Jekyll project root, open Terminal and enter:
+2. Create new app on Heroku. On Jekyll project root, open Terminal and enter:
 
    ```bash
    heroku create <custom_app_name>
    ```
 
-3. Create a file `static.json` on project root, enter:
+3. On project root, create a file `static.json` for Heroku's static buildpack:
 
    ```json
    {
@@ -23,7 +23,7 @@ Reference:
    }
    ```
 
-4. Create a file `Rakefile` on project root, enter:
+4. On project root, create a file `Rakefile` for Heroku's ruby buildpack:
 
    ```ruby
    task "assets:precompile" do
@@ -33,14 +33,12 @@ Reference:
 
 5. At the end of existing `Gemfile` on project root, add:
 
-   > Version might change over time. Please refer to official docs linked at the top of this document
-
    ```ruby
    gem "rake"
    ruby "<project_ruby_version>"
    ```
 
-6. Create a file `Procfile`, enter:
+6. On project root, create a file `Procfile` to specify which command to run on Heroku dyno:
 
    ```procfile
    web: jekyll serve -P $PORT --no-watch --host 0.0.0.0
