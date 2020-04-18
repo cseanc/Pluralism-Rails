@@ -2,6 +2,8 @@
 
 Run puma server and webpack-dev-server in one command.
 
+> Note: if you do this, you might not be able to see server error logs from Rails. There might be a workaround, I have not yet check it out.
+
 ## Install foreman
 
 ```bash
