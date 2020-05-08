@@ -14,5 +14,5 @@ Ruby, HTML, CSS, JavaScript
 
 ## Jekyll
 
-- [Deploy](./deploy-jekyll-heroku) Jekyll to Heroku
+- [Deploy](./deploy-jekyll-heroku.md) Jekyll to Heroku
 
